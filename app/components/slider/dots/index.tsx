@@ -8,7 +8,7 @@ const SliderDot = ({ selected, onClick, className = '' }: SliderDotProps) => (
     type="button"
     aria-label="changer de diapo"
     onClick={() => onClick?.()}
-    className={`p-2 h-2 w-2 cursor-pointer rounded-full ${selected ? 'bg-(--eva-gold)' : 'bg-slate-500'} ${className}`}
+    className={`p-2 h-2 w-2 cursor-pointer rounded-full ${selected ? 'bg-(--mm-green)' : 'bg-slate-500'} ${className}`}
   />
 );
 

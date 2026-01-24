@@ -56,7 +56,7 @@ function InnertextSlide({
   return (
     <div className={`flex flex-col items-center ${innerContainerClassName}`}>
       <Title
-        titleClassName={`${titleClassName} text-(--eva-gold) text-2xl xs:text-3xl sm:text-4xl text-center mb-4 font-cinzel font-semibold`}
+        titleClassName={`${titleClassName} text-(--mm-green) text-2xl xs:text-3xl sm:text-4xl text-center mb-4 font-cinzel font-semibold`}
         level="h3"
       >
         {title}
@@ -71,7 +71,7 @@ function InnertextSlide({
       {/* {link && <InternalLink className="z-10 text-(--eva-black)" href={link.href} label={link.label} />} */}
       {link && (
         <a
-          className="text-(--eva-black) variant-gold !text-base xs:!text-lg sm:!text-xl lg:!text-2xl !h-10 xs:!h-14 grid place-items-center"
+          className="text-(--eva-black) variant-gold text-base! xs:text-lg! sm:text-xl! lg:text-2xl! h-10! xs:h-14! grid place-items-center"
           href={link.href}
         >
           {link.label}
