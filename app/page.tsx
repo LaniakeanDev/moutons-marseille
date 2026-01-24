@@ -1,5 +1,9 @@
 
+import About from "./components/about";
 import Slider from "./components/slider";
+import Activities from "./components/activities";
+import Partners from "./components/partners";
+import Contact from "./components/contact";
 
 export default function Home() {
   const slides: ISlide[] = [
@@ -26,6 +30,12 @@ export default function Home() {
     }
   ]
   return (
-    <Slider slides={slides} className="w-full h-[80vh]" autoPlay />
+    <main>
+      <Slider slides={slides} className="w-full h-[80vh]" autoPlay />
+      <About className="my-40" />
+      <Activities />
+      <Partners className="my-40" />
+      <Contact className="" />
+    </main>
   );
 }

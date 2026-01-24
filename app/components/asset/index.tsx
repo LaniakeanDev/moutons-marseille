@@ -17,3 +17,20 @@ export default function ImageAsset(props: ImageAssetProps) {
     </div>
   );
 }
+
+
+
+interface SVGAssetProps {
+  SVGAsset: SVGComponent;
+  alt?: string;
+  svgClassName?: string;
+  containerClassName?: string;
+}
+
+export function SVGAsset({ SVGAsset, alt, svgClassName, containerClassName }: SVGAssetProps) {
+  return (
+    <div className={`relative ${containerClassName}`}>
+      <SVGAsset aria-label={alt} className={svgClassName} />
+    </div>
+  );
+}
