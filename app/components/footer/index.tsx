@@ -95,7 +95,7 @@ export default function Footer({className}: FooterProps) {
 				<div className="space-y-4">
 					<h3 className="text-xl font-semibold mb-4 pb-2 border-b border-white/20">Suivez-nous</h3>
 					<div className="w-full grid place-items-center">
-						<Socials/>
+						<Socials dark={true} />
 					</div>
 					<p className="text-sm text-emerald-200/80 mt-4">
 						Restez informés de nos dernières actions écologiques
@@ -122,7 +122,10 @@ export default function Footer({className}: FooterProps) {
 							<svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 24 24">
 								<path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
 							</svg>
-							<p>Réalisé avec passion par</p><br/><span className="underline"><ExternalLink href="https://remyzins.fr/" className="inline"><span>Rémy Zins</span></ExternalLink></span>
+							<div className="flex flex-row gap-2">
+								<p>Réalisé avec passion par</p>
+								<ExternalLink href="https://remyzins.fr/" className="inline"><span className="underline">Rémy Zins</span></ExternalLink>
+							</div>
 						</div>
 					</div>
 				</div>

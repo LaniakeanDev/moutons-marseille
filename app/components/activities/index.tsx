@@ -58,7 +58,7 @@ export default function Activities() {
 				>
 					Nos activités
 				</Title>
-				<div className="flex flex-col lg:flex-row gap-8">
+				<div className="flex flex-col lg:flex-row gap-24 lg:gap-8">
 					{activities.map((activity, idx) => (
 						<Activity
 							key={`act-${String(idx)}`}

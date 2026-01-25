@@ -10,7 +10,7 @@ export default function About({className}: AboutProps) {
 	return (
 		<section className={`w-full grid place-items-center ${className}`}>
 			<div className="flex flex-col lg:flex-row gap-16">
-				<div className="flex flex-col gap-8 max-w-lg">
+				<div className="flex flex-col justify-center gap-8 max-w-lg">
 					<Title 
 						containerClassName="w-full grid place-items-center mb-4"
 						titleClassName="text-3xl font-semibold"

@@ -11,7 +11,7 @@ export default function Header() {
 				sizes="128px"
 				containerClassName="!absolute left-4 top-4 w-20 h-20"
 			/>
-			<Title level="h1" titleClassName="text-3xl">Les Moutons Marseillais</Title>
+			<Title level="h1" titleClassName="text-5xl">Les Moutons Marseillais</Title>
 		</header>
 	)
 }
