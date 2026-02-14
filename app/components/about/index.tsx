@@ -9,8 +9,8 @@ interface AboutProps {
 export default function About({className}: AboutProps) {
 	return (
 		<section className={`w-full grid place-items-center ${className}`}>
-			<div className="flex flex-col lg:flex-row gap-16">
-				<div className="flex flex-col gap-8 max-w-lg">
+			<div className="flex flex-col items-center lg:flex-row gap-16">
+				<div className="flex flex-col gap-8 w-[95vw] max-w-lg">
 					<Title 
 						containerClassName="w-full grid place-items-center mb-4"
 						titleClassName="text-3xl font-semibold"
