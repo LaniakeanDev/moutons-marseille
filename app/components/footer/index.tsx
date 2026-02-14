@@ -1,7 +1,6 @@
+import Socials from "../socials";
 import Title from "../title";
 import ImageAsset from "../asset"
-import Socials from "../socials";
-import { ExternalLink } from "../link";
 
 interface FooterProps {
 	className?: string;
@@ -53,7 +52,7 @@ export default function Footer({className}: FooterProps) {
 			</div>
 
 			{/* Main content grid */}
-			<div className="flex flex-col md:flex-row md:justify-center gap-16 md:gap-16 mb-12 mt-16">
+			<div className="flex flex-col lg:flex-row lg:justify-center gap-16 lg:gap-16 mb-12 mt-16">
 				{/* Contact info */}
 				<div className="space-y-4 flex-1">
 					<Title 

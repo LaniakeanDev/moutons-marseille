@@ -1,7 +1,5 @@
-import Title from "../title";
-import SVGAsset from "../svg";
-import { ExternalLink } from "../link";
 import Socials from "../socials";
+import Title from "../title";
 
 interface ContactProps {
 	className: string;

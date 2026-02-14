@@ -1,13 +1,21 @@
-
-
 interface SVGAssetProps {
 	className?: string;
 	name: string;
+	dark?: boolean;
 }
 
+export default function SVGAsset({ className, name, dark = false }: SVGAssetProps) {
+	// Determine fill classes based on the dark prop
+	const getFillClass = (lightColor: string, darkColor: string = "#FFFFFF") => {
+		if (dark) {
+			// If dark prop is true, use white fill and disable Tailwind dark mode
+			return "fill-white"
+		}
+		// If dark prop is false/undefined, use Tailwind dark mode classes
+		return `fill-[${lightColor}] dark:fill-[${darkColor}]`
+	}
 
-export default function SVGAsset({className, name}: SVGAssetProps) {
-	if (name == 'facebook') {
+	if (name === 'facebook') {
 		return (
 			<svg className={className} viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
 				<circle cx="12" cy="12" r="10" fill="white"/>
@@ -15,7 +23,7 @@ export default function SVGAsset({className, name}: SVGAssetProps) {
 			</svg>
 		)
 	}
-	else if (name == 'instagram') {
+	else if (name === 'instagram') {
 		return (
 			<svg className={className} viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
 				<rect x="4" y="4" width="16" height="16" rx="6" ry="6" fill="white"/>
