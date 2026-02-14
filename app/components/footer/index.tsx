@@ -1,6 +1,7 @@
 import Title from "../title";
 import ImageAsset from "../asset"
 import Socials from "../socials";
+import { ExternalLink } from "../link";
 
 interface FooterProps {
 	className?: string;
@@ -177,11 +178,12 @@ export default function Footer({className}: FooterProps) {
 						{/* <p className="text-sm text-emerald-200/80 mb-1">
 							© {new Date().getFullYear()} Les Moutons Marseillais. Tous droits réservés.
 						</p> */}
-						<p className="text-sm text-emerald-200/60 flex items-center justify-center md:justify-end">
-							<svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 24 24">
+						<p className="text-sm text-emerald-200/60 flex gap-2 items-center justify-center md:justify-end">
+							<svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
 								<path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
 							</svg>
-							Réalisé avec passion par Rémy Zins
+							{`Réalisé avec passion par `}
+							<a className="underline" href="https://remyzins.fr/" rel="noopener noreferrer" target="_blank">Rémy Zins</a>
 						</p>
 					</div>
 				</div>
