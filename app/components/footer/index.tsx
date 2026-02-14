@@ -1,8 +1,6 @@
 import Socials from "../socials";
 import Title from "../title";
 import ImageAsset from "../asset"
-import Socials from "../socials";
-import { ExternalLink } from "../link";
 
 interface FooterProps {
 	className?: string;

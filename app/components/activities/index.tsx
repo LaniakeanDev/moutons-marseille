@@ -12,17 +12,13 @@ function Activity(props: ActivityProps) {
 	const { src, alt, tagline } = props
 	return (
 		<div className="w-[90vw] max-w-xs flex flex-col items-center gap-4">
-		<div className="w-[90vw] max-w-xs flex flex-col items-center gap-4">
 			<ImageAsset
 				src={src}
 				alt={alt}
 				sizes="800px"
 				containerClassName="w-64 h-64 rounded-full"
 				imgClassName="rounded-full"
-				containerClassName="w-64 h-64 rounded-full"
-				imgClassName="rounded-full"
 			/>
-			<p className="text-lg text-center">{tagline}</p>
 			<p className="text-lg text-center">{tagline}</p>
 		</div>
 	)
