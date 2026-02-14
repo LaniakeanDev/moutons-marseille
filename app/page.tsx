@@ -35,7 +35,7 @@ export default function Home() {
       <About className="my-40" />
       <Activities />
       <Partners className="my-40" />
-      <Contact className="" />
+      <Contact className="mb-40" />
     </main>
   );
 }

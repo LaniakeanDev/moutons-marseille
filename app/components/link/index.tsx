@@ -6,7 +6,6 @@ export function InternalLink({
   icon: Icon,
   iconClassName = '',
   alt,
-  variantStyle = 'transparent' as IVariantStyle,
   children,
   className = '',
   opensInNewTab = false,
@@ -14,7 +13,7 @@ export function InternalLink({
   return Icon ? (
     <Link
       href={href}
-      className={`flex flex-row justify-center items-center gap-2 variant-${variantStyle} ${className}`}
+      className={`flex flex-row justify-center items-center gap-2 ${className}`}
       target={opensInNewTab ? '_blank' : undefined}
       rel={opensInNewTab ? 'noopener noreferrer' : undefined}
     >
@@ -26,7 +25,7 @@ export function InternalLink({
       href={href}
       target={opensInNewTab ? '_blank' : undefined}
       rel={opensInNewTab ? 'noopener noreferrer' : undefined}
-      className={`grid place-items-center variant-${variantStyle} ${className}`}
+      className={`grid place-items-center ${className}`}
     >
       {label || children}
     </Link>
@@ -39,7 +38,6 @@ export function ExternalLink({
   icon: Icon,
   iconClassName = '',
   alt,
-  variantStyle = 'transparent' as IVariantStyle,
   children,
   className = '',
   opensInNewTab = true,
@@ -53,7 +51,7 @@ export function ExternalLink({
       target={opensInNewTab ? '_blank' : undefined}
       rel={opensInNewTab ? 'noopener noreferrer' : undefined}
     >
-      <div className={`flex flex-row justify-center items-center gap-2 variant-${variantStyle} ${className}`}>
+      <div className={`flex flex-row justify-center items-center gap-2 ${className}`}>
         <Icon role="img" aria-label={alt} className={iconClassName} />
         {label && <p>{label}</p>}
       </div>
@@ -69,7 +67,7 @@ export function ExternalLink({
       {inline ? (
         <span>{label}</span>
       ) : (
-        <div className={`grid place-items-center variant-${variantStyle}`}>
+        <div className={`grid place-items-center`}>
           {/* <p>{label || children}</p> */}
           {label && <p>{label}</p>}
           {children && children}
