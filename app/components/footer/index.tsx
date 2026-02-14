@@ -1,3 +1,4 @@
+import Socials from "../socials";
 import Title from "../title";
 import ImageAsset from "../asset"
 import Socials from "../socials";
