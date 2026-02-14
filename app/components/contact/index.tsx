@@ -1,6 +1,7 @@
 import Title from "../title";
 import SVGAsset from "../svg";
 import { ExternalLink } from "../link";
+import Socials from "../socials";
 
 interface ContactProps {
 	className: string;
@@ -20,7 +21,8 @@ export default function Contact({className}: ContactProps) {
 				<p className="text-xl">Maïté Kaczmarek</p>
 				<p className="text-xl">07 43 63 21 73</p>
 				<p className="text-xl">lesmoutonsmarseillais@gmail.com</p>
-				<div className="flex flex-row gap-4">
+				<Socials iconClassName="w-16 h-16" />
+				{/* <div className="flex flex-row gap-4">
 					<ExternalLink href="https://www.facebook.com/LesMoutonsMarseillais/">
 						<SVGAsset name="facebook" className="w-10 h-10"/>
 					</ExternalLink>
@@ -30,7 +32,7 @@ export default function Contact({className}: ContactProps) {
 					<ExternalLink href="https://www.linkedin.com/company/104610172/">
 						<SVGAsset name="linkedin" className="w-10 h-10" />
 					</ExternalLink>
-				</div>
+				</div> */}
 			</div>
 		</section>
 	)
