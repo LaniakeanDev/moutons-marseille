@@ -25,7 +25,7 @@ export default function About({className}: AboutProps) {
 						L’association est créée en 2022 par Arthur Aude, ingénieur horticole avec la volonté d’apporter une solution écologique pour la gestion des espaces verts.
 					</p>
 					<p className="text-xl">
-						L’association s’appuie aujourd’hui sur un troupeau d’une <span className="font-semibold">vingtaine de brebis Mérinos</span> et propose des activités variées:
+						L’association s’appuie aujourd’hui sur un troupeau d’une <span className="font-semibold">trentaine de brebis Mérinos</span> et propose des activités variées:
 					</p>
 				</div>
 				<ImageAsset
