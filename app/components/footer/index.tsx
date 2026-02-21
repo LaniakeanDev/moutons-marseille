@@ -105,20 +105,68 @@ export default function Footer({className}: FooterProps) {
 				</div>
 				*/}
 
-				
-				<div className="space-y-4 flex-1">
-					<Title 
-						titleClassName="text-xl text-center font-semibold mb-4 pb-2 border-b border-white/20"
-						level="h3"
-					>
-						Mentions Légales
-					</Title>
-					{/* <h3 className="text-xl font-semibold mb-4 pb-2 border-b border-white/20">Contact</h3> */}
-					<div className="space-x-3">
-						<p>Nom de l’association: Les Moutons Marseillais</p>
-						<p>Adresse du siège social</p>
-						<p>Représentant légal: Maïté Kaczmarek</p>
-						<p>Hébergé par Aut O’Mattic Ltd. Grand Canal Dock, 25 Herbert Pl Dublin, D02 AY86, Ireland</p>
+				<div className="w-full space-y-4 flex-1">
+					<div className="w-full grid place-items-center">
+						<Title 
+							titleClassName="w-full text-xl text-center font-semibold mb-4 pb-2 border-b border-white/20"
+							level="h3"
+						>
+							Mentions Légales
+						</Title>
+						{/* <h3 className="text-xl font-semibold mb-4 pb-2 border-b border-white/20">Contact</h3> */}
+						<div className="space-y-4">
+							{/* Association Name */}
+							<div>
+								<Title
+									level="h4"
+									titleClassName="font-semibold text-gray-200 mb-1"
+								>
+									Nom de l’association
+								</Title>
+								<p className="text-gray-300">Les Moutons Marseillais</p>
+							</div>
+
+							{/* Registered Office */}
+							<div>
+								<Title
+									level="h4"
+									titleClassName="font-semibold text-gray-200 mb-1"
+								>
+									Siège social
+								</Title>
+								<p className="text-gray-300">
+									Maison des associations<br />
+									93 voie de la Canebière<br />
+									13001 MARSEILLE
+								</p>
+							</div>
+
+							{/* Legal Representative */}
+							<div>
+								<Title
+									level="h4"
+									titleClassName="font-semibold text-gray-200 mb-1"
+								>
+									Représentant légal
+								</Title>
+								<p className="text-gray-300">Marine Carvin</p>
+							</div>
+
+							{/* Hosting Information */}
+							<div>
+								<Title
+									level="h4"
+									titleClassName="font-semibold text-gray-200 mb-1"
+								>
+									Hébergé par
+								</Title>
+								<p className="text-gray-300">
+									Aut O’Mattic Ltd.<br />
+									Grand Canal Dock, 25 Herbert Pl<br />
+									Dublin, D02 AY86, Ireland
+								</p>
+							</div>
+						</div>
 					</div>
 				</div>
 
