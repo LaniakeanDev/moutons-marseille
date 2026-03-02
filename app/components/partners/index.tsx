@@ -16,10 +16,11 @@ export default function Partners({className}: PartnersProps) {
 				Nos partenaires
 				</Title>
 				<ImageAsset
-					src="/assets/partners.png"
+					src="/assets/partners.jpg"
 					alt="Nos partenaires"
 					sizes="90vw"
 					containerClassName="w-[90vw] h-[50vw] max-h-[500px] max-w-7xl"
+					imgClassName="!object-contain"
 				/>
 		</section>
 	)
