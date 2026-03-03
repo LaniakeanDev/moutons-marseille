@@ -5,6 +5,7 @@ import Activities from "./components/activities";
 import Partners from "./components/partners";
 import Contact from "./components/contact";
 import SupportUs from "./components/support-us";
+import Testimonials from "./components/testimonials";
 
 export default function Home() {
   const slides: ISlide[] = [
@@ -195,6 +196,7 @@ export default function Home() {
       <Partners className="my-40" />
       <Contact className="mb-40" />
       <SupportUs />
+      <Testimonials />
     </main>
   );
 }
