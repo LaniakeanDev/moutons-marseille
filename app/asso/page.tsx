@@ -1,5 +1,6 @@
 import ImageAsset from "../components/asset";
 import FaceCard from "../components/facecard";
+import SupportUs from "../components/support-us";
 import Title from "../components/title";
 
 
@@ -181,6 +182,7 @@ export default function Asso() {
 					</div>
 				</div>
 			</section>
+			<SupportUs />
 		</main>
 	)
 }

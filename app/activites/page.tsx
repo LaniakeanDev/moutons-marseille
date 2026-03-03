@@ -1,6 +1,7 @@
 import Title from "../components/title";
 import ActivityCard from "../components/activity-card";
 import ActivityDetails from "../components/activity-detail";
+import SupportUs from "../components/support-us";
 
 
 export default function Activites() {
@@ -168,6 +169,7 @@ export default function Activites() {
 					/>
 				</div>
 			</section>
+			<SupportUs />
 		</main>
 	)
 }
