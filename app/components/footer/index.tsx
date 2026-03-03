@@ -199,7 +199,7 @@ export default function Footer({className}: FooterProps) {
 								/>
 							</a>
 						))} */}
-						<Socials iconClassName="w-20 h-20" />
+						<Socials iconClassName="w-10 h-10" />
 					</div>
 					<p className="text-sm text-emerald-200/80 mt-4">
 						Restez informés de nos dernières actions écologiques
