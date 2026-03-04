@@ -61,19 +61,20 @@ export default function Activites() {
 			actionLabel: "nous contacter",
 			actionUrl: "TBD"
 		},
-		// transhumanceEstivale: {
-		// 	title: "Transhumance estivale",
-		// 	description: [
-		// 		"Nous proposons des temps d’échange et d’apprentissage accessibles à tous, afin de mieux comprendre les grands défis liés à la biodiversité, à l’agriculture et à l’alimentation.",
-		// 		"Nous animons notamment la Fresque de la Biodiversité et la Fresque Agri-Alim, des ateliers collaboratifs et participatifs qui permettent de décrypter, de manière ludique et pédagogique, les causes et conséquences de l’érosion du vivant et les liens entre nos systèmes agricoles, alimentaires et l’environnement.",
-		// 		"Ces temps favorisent la réflexion collective, le dialogue et l’émergence de solutions concrètes à l’échelle individuelle et collective.",
-		// 		"Nous proposons également des ateliers de sciences participatives, invitant les participant·e·s à observer, comprendre et contribuer activement à la connaissance de leur environnement local. Ces démarches renforcent le lien au territoire, développent l’esprit critique et encouragent l’engagement citoyen.",
-		// 	],
-		// 	imgUrl: "/assets/activites/sensibilisation.png",
-		// 	imgAlt: "description",
-		// 	actionLabel: "nous contacter",
-		// 	actionUrl: "TBD"
-		// },
+		transhumanceEstivale: {
+			title: "Transhumance estivale",
+			description: [
+				"Nous souhaitons organiser une transhumance estivale d’un mois, reliant Marseille à Seynes-les-Alpes, en parcourant le territoire à pied avec notre troupeau de brebis.",
+				"Ce projet s’inscrit dans la continuité de notre engagement pour un pastoralisme vivant, ancré dans son territoire. En traversant villes, villages et paysages naturels, cette transhumance sera à la fois un temps fort agricole, écologique et humain.",
+				"Au fil des étapes, nous souhaitons créer des moments de rencontre avec les habitant·e·s, sensibiliser aux enjeux du pastoralisme, de la biodiversité et du développement durable, et remettre en lumière cette pratique ancestrale qui façonne nos paysages.",
+				"À l’issue du parcours, les brebis rejoindront les pâturages de montagne pour y passer la saison estivale. Cette montée en alpage s’inscrit dans le respect du cycle naturel du troupeau et des équilibres pastoraux.",
+				"Marcher avec le troupeau, c’est prendre le temps. C’est reconnecter les territoires, les humains et le vivant, au rythme des brebis.",
+			],
+			imgUrl: "/assets/activites/transhumance_estivale.jpeg",
+			imgAlt: "description",
+			actionLabel: "participer",
+			actionUrl: "TBD"
+		},
 	}
 	return (
 		<main className="mb-32 mt-8">
@@ -167,6 +168,21 @@ export default function Activites() {
 						imgAlt={activities.sensibilisation.imgAlt}
 						actionLabel={activities.sensibilisation.actionLabel}
 						actionUrl={activities.sensibilisation.actionUrl}
+					/>
+				</div>
+			</section>
+			<section
+				className="w-full grid place-items-center mb-32"
+				id="sensibilisation"
+			>
+				<div className="w-[90vw] max-w-264">
+					<ActivityDetails
+						title={activities.transhumanceEstivale.title}
+						description={activities.transhumanceEstivale.description}
+						imgUrl={activities.transhumanceEstivale.imgUrl}
+						imgAlt={activities.transhumanceEstivale.imgAlt}
+						actionLabel={activities.transhumanceEstivale.actionLabel}
+						actionUrl={activities.transhumanceEstivale.actionUrl}
 					/>
 				</div>
 			</section>
