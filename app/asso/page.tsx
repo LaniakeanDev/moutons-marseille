@@ -5,7 +5,7 @@ import Testimonials from "../components/testimonials";
 import Title from "../components/title";
 
 
-export default function Asso() {
+export default function AssoPage() {
 	return (
 		<main className="mb-32">
 			<section className="w-full grid place-items-center mb-16">

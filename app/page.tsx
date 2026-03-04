@@ -7,7 +7,7 @@ import Contact from "./components/contact";
 import SupportUs from "./components/support-us";
 import Testimonials from "./components/testimonials";
 
-export default function Home() {
+export default function HomePage() {
   const slides: ISlide[] = [
     {
       type: "image",

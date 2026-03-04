@@ -5,7 +5,7 @@ import SupportUs from "../components/support-us";
 import Testimonials from "../components/testimonials";
 
 
-export default function Activites() {
+export default function ActivitesPage() {
 	const activities = {
 		animations: {
 			title: "Animations & Médiation animale",
