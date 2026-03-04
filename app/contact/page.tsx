@@ -1,23 +1,15 @@
-import SheepFace from "../components/sheep-face"
+
+import Contact from "../components/contact"
 import SupportUs from "../components/support-us"
 import Testimonials from "../components/testimonials"
-import { brebisList } from "./data"
 
 
-export default function NosBrebisPage() {
+export default function ContactPage() {
 	return (
 		<main className="mb-32 mt-8">
 			<section className="w-full grid place-items-center mb-48">
 				<div className="w-[90vw] max-w-264 flex justify-center flex-wrap gap-16">
-					{brebisList.map((brebis, idx) => (
-						<SheepFace
-							key={`sheep-${String(idx)}`}
-							imgSrc={brebis.imgSrc}
-							id={brebis.id}
-							description={brebis.description}
-							name={brebis.name}
-						/>
-					))}
+					<Contact />
 				</div>
 			</section>
 			<SupportUs />

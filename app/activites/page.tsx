@@ -3,79 +3,9 @@ import ActivityCard from "../components/activity-card";
 import ActivityDetails from "../components/activity-detail";
 import SupportUs from "../components/support-us";
 import Testimonials from "../components/testimonials";
-
+import { activities } from "./data";
 
 export default function ActivitesPage() {
-	const activities = {
-		animations: {
-			title: "Animations & Médiation animale",
-			description: [
-				"Les animations que l’on propose sont des temps de rencontre à visée thérapeutique, fondés sur les bienfaits des liens entre humains et animaux.",
-				"Elles offrent des moments de calme, de partage et de reconnexion, au rythme du troupeau.",
-				"Nous intervenons dans des contextes variés : espaces de santé, établissements scolaires, lieux de travail, résidences ou quartiers de vie. Lors de ces temps, les habitant·e·s sont invité·e·s à venir à la rencontre des brebis, à échanger avec l’équipe, poser leurs questions et découvrir le quotidien du troupeau.",
-				"Ces moments privilégiés permettent d’observer les animaux, de les caresser et, lorsque cela est possible, de leur donner à manger. Le contact direct avec les brebis favorise l’apaisement, l’attention au vivant et le bien-être émotionnel.",
-				"Nos brebis, particulièrement câlines et proches de l’humain, apprécient ces interactions et offrent de véritables instants de douceur, propices à de jolis moments de connexion, simples et sincères.",
-			],
-			imgUrl: "/assets/activites/animations.png",
-			imgAlt: "description",
-			actionLabel: "nous contacter",
-			actionUrl: "TBD"
-		},
-		transhumances: {
-			title: "Transhumances urbaines",
-			description: [
-				"Pour chacune des transhumances, nous invitons notre communauté à nous appuyer dans l’encadrement du troupeau.",
-				"Une occasion unique (pour les petits comme les plus grands) de découvrir une première facette du métier de berger-e.",
-				"Ces temps sont également l’occasion de sensibiliser les participant-e-s aux enjeux de mobilité durable et de préservation de la biodiversité. Ils permettent de mettre en lumière à la fois les manques et l’importance des continuités écologiques urbaines.",
-			],
-			imgUrl: "/assets/activites/transhumances.png",
-			imgAlt: "description",
-			actionLabel: "participer",
-			actionUrl: "TBD"
-		},
-		entretiens: {
-			title: "Entretiens écologiques des espaces verts",
-			description: [
-				"Nous remplaçons la tonte mécanique par une solution naturelle : l’installation de notre troupeau de brebis mérinos au sein des espaces verts, pour une période déterminée.",
-				"Cette pratique ancestrale présente de nombreux bénéfices, tant sur le plan écologique que social.",
-				"Le pâturage contribue d’abord à améliorer la qualité des sols. Les déjections animales enrichissent la terre en matière organique, renforçant ainsi sa fertilité, sa structure et sa capacité de rétention de l’eau.",
-				"Par ailleurs, cette méthode favorise la régénération des écosystèmes. En broutant certaines espèces végétales, les animaux limitent le développement des plantes envahissantes, permettant aux espèces locales de se développer durablement.",
-				"Le pâturage urbain permet également de réduire l’usage de pesticides et de tondeuses mécaniques, évitant ainsi les impacts environnementaux et sociaux qui leur sont associés, tels que la production de déchets, la consommation d’énergie et les nuisances sonores.",
-				"Enfin, la présence des animaux en milieu urbain constitue un véritable levier de sensibilisation. Le troupeau suscite la curiosité, l’émerveillement et favorise la reconnexion à la nature. Il participe à l’amélioration du cadre de vie, encourage les échanges entre habitants et contribue au bien-être collectif, tout en facilitant la sensibilisation aux enjeux de la transition écologique.",
-			],
-			imgUrl: "/assets/activites/entretiens.jpg",
-			imgAlt: "description",
-			actionLabel: "nous contacter",
-			actionUrl: "TBD"
-		},
-		sensibilisation: {
-			title: "Sensibilisation au développement durable",
-			description: [
-				"Nous proposons des temps d’échange et d’apprentissage accessibles à tous, afin de mieux comprendre les grands défis liés à la biodiversité, à l’agriculture et à l’alimentation.",
-				"Nous animons notamment la Fresque de la Biodiversité et la Fresque Agri-Alim, des ateliers collaboratifs et participatifs qui permettent de décrypter, de manière ludique et pédagogique, les causes et conséquences de l’érosion du vivant et les liens entre nos systèmes agricoles, alimentaires et l’environnement.",
-				"Ces temps favorisent la réflexion collective, le dialogue et l’émergence de solutions concrètes à l’échelle individuelle et collective.",
-				"Nous proposons également des ateliers de sciences participatives, invitant les participant·e·s à observer, comprendre et contribuer activement à la connaissance de leur environnement local. Ces démarches renforcent le lien au territoire, développent l’esprit critique et encouragent l’engagement citoyen.",
-			],
-			imgUrl: "/assets/activites/sensibilisation.png",
-			imgAlt: "description",
-			actionLabel: "nous contacter",
-			actionUrl: "TBD"
-		},
-		transhumanceEstivale: {
-			title: "Transhumance estivale",
-			description: [
-				"Nous souhaitons organiser une transhumance estivale d’un mois, reliant Marseille à Seynes-les-Alpes, en parcourant le territoire à pied avec notre troupeau de brebis.",
-				"Ce projet s’inscrit dans la continuité de notre engagement pour un pastoralisme vivant, ancré dans son territoire. En traversant villes, villages et paysages naturels, cette transhumance sera à la fois un temps fort agricole, écologique et humain.",
-				"Au fil des étapes, nous souhaitons créer des moments de rencontre avec les habitant·e·s, sensibiliser aux enjeux du pastoralisme, de la biodiversité et du développement durable, et remettre en lumière cette pratique ancestrale qui façonne nos paysages.",
-				"À l’issue du parcours, les brebis rejoindront les pâturages de montagne pour y passer la saison estivale. Cette montée en alpage s’inscrit dans le respect du cycle naturel du troupeau et des équilibres pastoraux.",
-				"Marcher avec le troupeau, c’est prendre le temps. C’est reconnecter les territoires, les humains et le vivant, au rythme des brebis.",
-			],
-			imgUrl: "/assets/activites/transhumance_estivale.jpeg",
-			imgAlt: "description",
-			actionLabel: "participer",
-			actionUrl: "TBD"
-		},
-	}
 	return (
 		<main className="mb-32 mt-8">
 			<section className="w-full grid place-items-center mb-48">

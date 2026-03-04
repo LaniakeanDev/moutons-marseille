@@ -1,5 +1,5 @@
+import ImageAsset from "../asset";
 import { ExternalLink } from "../link";
-import SVGAsset from "../svg";
 
 interface SocialsProps {
 	iconClassName: string;
@@ -8,14 +8,32 @@ interface SocialsProps {
 export default function Socials({iconClassName}: SocialsProps) {
 	return (
 		<div className="flex flex-row gap-4">
+			<ExternalLink href="https://www.linkedin.com/company/104610172/">
+				<ImageAsset
+					src="/assets/icons/LinkedIn.png"
+					alt="Icone LinkedIn"
+					sizes="48px"
+					containerClassName={iconClassName}
+					imgClassName="rounded-lg"
+				/>
+			</ExternalLink>
 			<ExternalLink href="https://www.facebook.com/LesMoutonsMarseillais/">
-				<SVGAsset name="facebook" className={iconClassName}/>
+				<ImageAsset
+					src="/assets/icons/Facebook.png"
+					alt="Icone Facebook"
+					sizes="48px"
+					containerClassName={iconClassName}
+					imgClassName="rounded-lg"
+				/>
 			</ExternalLink>
 			<ExternalLink href="https://www.instagram.com/lesmoutonsmarseillais/">
-				<SVGAsset name="instagram" className={iconClassName} />
-			</ExternalLink>
-			<ExternalLink href="https://www.linkedin.com/company/104610172/">
-				<SVGAsset name="linkedin" className={iconClassName} />
+				<ImageAsset
+					src="/assets/icons/Instagram.png"
+					alt="Icone Instagram"
+					sizes="48px"
+					containerClassName={iconClassName}
+					imgClassName="rounded-lg"
+				/>
 			</ExternalLink>
 		</div>
 	)
