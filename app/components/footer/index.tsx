@@ -206,7 +206,7 @@ export default function Footer({className}: FooterProps) {
 						))} */}
 						<Socials iconClassName="w-10 h-10" />
 					</div>
-					<p className="text-sm text-emerald-200/80 mt-4">
+					<p className="text-sm text-emerald-200/80 mt-4 text-center">
 						Restez informés de nos dernières actions écologiques
 					</p>
 				</div>
@@ -240,17 +240,6 @@ export default function Footer({className}: FooterProps) {
 					</div>
 				</div>
 			</div>
-
-			{/* Back to top button */}
-			<button 
-				// onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-				className="absolute right-6 bottom-6 w-12 h-12 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-white/20 transition-all duration-300 hover:scale-110 group"
-				aria-label="Retour en haut"
-			>
-				<svg className="w-6 h-6 transform group-hover:-translate-y-1 transition-transform" fill="currentColor" viewBox="0 0 24 24">
-					<path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/>
-				</svg>
-			</button>
 		</div>
 	</footer>
 	)
