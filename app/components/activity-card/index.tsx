@@ -11,7 +11,7 @@ interface ActivityCardProps {
 export default function ActivityCard(props: ActivityCardProps) {
 	const {imgUrl, label, link} = props;
 	return (
-		<a href={link} className="block px-4 py-2 rounded-xl bg-slate-700 text-white">
+		<a href={link} className="block px-4 py-2 rounded-xl text-white">
 			<div className="flex flex-col items-center">
 				<ImageAsset
 					src={imgUrl}
