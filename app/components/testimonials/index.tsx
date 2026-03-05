@@ -57,7 +57,7 @@ export default function Testimonials() {
 			<div className="w-[90vw] max-w-264">
 				<Title
 					level="h2"
-					titleClassName="text-3xl font-semibold"
+					titleClassName="text-2xl 2xs:text-3xl font-semibold"
 					containerClassName="mb-16"
 				>
 					Ils nous font confiance

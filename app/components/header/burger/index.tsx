@@ -85,7 +85,7 @@ export default function BurgerMenu({ menuItems, className }: BurgerMenuProps) {
       >
         <div className="flex flex-col h-full">
           {/* Menu Header */}
-          <div className="p-6 border-b border-foreground/30">
+          <div className="p-6 border-b border-foreground/30 min-h-24 flex justify-start items-center">
             <h2 className="text-xl font-cardo font-bold text-foreground">Navigation</h2>
           </div>
 

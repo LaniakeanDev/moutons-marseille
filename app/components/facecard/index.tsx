@@ -22,8 +22,8 @@ export default function FaceCard(props: FaceCardProps) {
 			/>
 			<Title
 				level="h4"
-				containerClassName="mb-2"
-				titleClassName="text-lg font-semibold"
+				containerClassName="mb-2 max-w-32 xs:max-w-none"
+				titleClassName="xs:text-lg font-semibold text-center"
 			>
 				{name}
 			</Title>

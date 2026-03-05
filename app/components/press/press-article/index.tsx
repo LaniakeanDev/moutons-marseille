@@ -8,7 +8,7 @@ export default function PressArticle(props: PressArticleProps) {
 	const {outletName, date, screenShot, alt, imgSize = '', link} = props;
 	return (
 		<div className="mb-32">
-			<div className="w-full flex flex-row justify-between items-center px-4 py-1 mb-4 bg-slate-300 dark:bg-slate-700 max-h-">
+			<div className="w-full flex flex-row justify-between items-center px-2 2xs:px-4 py-1 mb-4 bg-slate-300 dark:bg-slate-700 max-h-">
 				<Title
 					level="h3"
 					titleClassName="text-2xl font-semibold"
@@ -21,7 +21,7 @@ export default function PressArticle(props: PressArticleProps) {
 				<ImageAsset 
 					src={screenShot}
 					alt={alt}
-					sizes="w-[90vw] max-w-264"
+					sizes="90vw, 1056px"
 					containerClassName={`${imgSize} w-[90vw] h-[70vw] sm:h-[50vw]`}
 					/>
 				</div>

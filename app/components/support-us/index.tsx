@@ -6,11 +6,11 @@ export default function SupportUs() {
 	return (
 		<section className="w-full grid place-items-center my-16">
 			<div className="w-[90vw] max-w-264 flex flex-col xl:flex-row gap-8 items-center">
-				<div className="w-[90vw] max-w-xl">
+				<div className="w-[90vw] xl:max-w-xl">
 					<Title
 						level="h2"
-						containerClassName="w-fit px-2 py-1 rounded-lg bg-(--mm-green) mb-4"
-						titleClassName="text-white font-semibold"
+						containerClassName="w-fit px-4 py-2 rounded-lg bg-(--mm-green) mb-8"
+						titleClassName="text-white font-semibold text-2xl"
 					>
 						Nous soutenir
 					</Title>

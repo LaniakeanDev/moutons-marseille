@@ -38,7 +38,7 @@ export default function Press() {
 		},
 	]
 	return (
-		<section className="w-full grid place-items-center my-48">
+		<section className="w-full grid place-items-center my-32">
 				<div className="w-[90vw] max-w-264">
 					<Title
 						level="h2"
