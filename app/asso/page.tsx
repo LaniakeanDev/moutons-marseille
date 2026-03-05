@@ -3,6 +3,7 @@ import FaceCard from "../components/facecard";
 import SupportUs from "../components/support-us";
 import Testimonials from "../components/testimonials";
 import Title from "../components/title";
+import Press from "../components/press";
 
 
 export default function AssoPage() {
@@ -183,6 +184,7 @@ export default function AssoPage() {
 					</div>
 				</div>
 			</section>
+			<Press />
 			<SupportUs />
 			<Testimonials />
 		</main>
