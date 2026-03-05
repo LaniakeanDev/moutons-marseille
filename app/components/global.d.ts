@@ -11,3 +11,10 @@ declare module '*.svg' {
   const ReactComponent: SVGComponent;
   export default ReactComponent;
 }
+
+interface SheepFaceProps {
+	imgSrc: string;
+	id: string;
+  description: string[];
+	name?: string;
+}
