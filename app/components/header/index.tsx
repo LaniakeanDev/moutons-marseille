@@ -20,7 +20,7 @@ export default function Header() {
 				</InternalLink>
 				<Title 
 					level="h1" 
-					titleClassName="text-xl sm:text-3xl"
+					titleClassName="text-lg 2xs:text-xl sm:text-3xl"
 				>
 					Les Moutons Marseillais
 				</Title>
