@@ -19,21 +19,21 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: 'Les moutons Marseillais', // Fallback if no title set
-    template: '%s | Les moutons Marseillais', // Format: "Page Name | Site Name"
+    default: 'Les Moutons Marseillais', // Fallback if no title set
+    template: '%s | Les Moutons Marseillais', // Format: "Page Name | Site Name"
   },
   description: 'LES MOUTONS MARSEILLAIS est un élevage ovin urbain et itinérant en plein air intégral, implanté sur le territoire de la métropole Aix Marseille Provence.',
   openGraph: {
-    title: 'Les moutons Marseillais',
+    title: 'Les Moutons Marseillais',
     description: 'LES MOUTONS MARSEILLAIS est un élevage ovin urbain et itinérant en plein air intégral, implanté sur le territoire de la métropole Aix Marseille Provence.',
     url: baseUrl,
-    siteName: 'Les moutons Marseillais',
+    siteName: 'Les Moutons Marseillais',
     images: [
       {
         url: '/assets/logo.png', // Place in /public
         width: 500,
         height: 500,
-        alt: 'Les moutons Marseillais',
+        alt: 'Les Moutons Marseillais',
       },
     ],
     locale: 'fr_FR',
