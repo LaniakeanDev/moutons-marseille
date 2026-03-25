@@ -14,7 +14,7 @@ export default function AssoPage() {
 					<div className="w-[90vw] max-w-264 xl:max-w-xl">
 							<Title
 								level="h1"
-								containerClassName="bg-slate-300 dark:bg-slate-700 rounded-md w-fit px-4 py-2 mb-8"
+								containerClassName="bg-(--mm-grey) dark:bg-slate-700 rounded-md w-fit px-4 py-2 mb-8"
 								titleClassName="font-semibold text-2xl"
 								>
 								L’association
@@ -36,7 +36,7 @@ export default function AssoPage() {
 							</div>
 							<Title
 								level="h2"
-								containerClassName="bg-slate-300 dark:bg-slate-700 rounded-md w-fit py-1 px-2 mb-4 mt-8"
+								containerClassName="bg-(--mm-grey) dark:bg-slate-700 rounded-md w-fit py-1 px-2 mb-4 mt-8"
 								titleClassName="font-semibold text-xl"
 							>
 								Qui sommes-nous ?
@@ -111,7 +111,7 @@ export default function AssoPage() {
 				<div className="w-[90vw] max-w-264 mb-16">
 					<Title
 						level="h2"
-						containerClassName="bg-slate-300 dark:bg-slate-700 rounded-md w-fit px-4 py-2 mb-4 mt-8"
+						containerClassName="bg-(--mm-grey) dark:bg-slate-700 rounded-md w-fit px-4 py-2 mb-4 mt-8"
 						titleClassName="font-semibold text-2xl"
 					>
 						Notre équipe

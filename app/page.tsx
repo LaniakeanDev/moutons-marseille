@@ -191,10 +191,10 @@ export default function HomePage() {
   return (
     <main>
       <Slider slides={slides} className="w-full h-[80vh]" autoPlay />
-      <About className="my-40" />
+      {/* <About className="my-40" /> */}
       <Partners className="my-40" />
-      <SupportUs />
-      <Testimonials />
+      {/* <SupportUs />
+      <Testimonials /> */}
     </main>
   );
 }

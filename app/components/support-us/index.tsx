@@ -1,6 +1,7 @@
 import ImageAsset from "../asset";
 import { ExternalLink } from "../link";
 import Title from "../title";
+import SupportUsLinks from "./links";
 
 
 export default function SupportUs() {
@@ -24,7 +25,7 @@ export default function SupportUs() {
 					<p className="mb-4">
 						Chaque geste compte. Qu’il soit ponctuel ou régulier, financier ou humain, votre soutien nous aide concrètement à poursuivre et élargir nos actions sur le territoire. Merci de faire partie de l’aventure 🐑🌿
 					</p>
-					<div className="w-full flex flex-col items-center gap-4 my-16">
+					{/* <div className="w-full flex flex-col items-center gap-4 my-16">
 						<ExternalLink
 							label="ADHÉRER"
 							href="https://www.helloasso.com/associations/les-moutons-marseillais/adhesions/adhesion-2026"
@@ -40,7 +41,8 @@ export default function SupportUs() {
 							href="https://www.helloasso.com/associations/les-moutons-marseillais"
 							className="w-64 py-2 bg-slate-700 text-white rounded-full"
 						/>
-					</div>
+					</div> */}
+					<SupportUsLinks className="my-16" />
 				</div>
 				<ImageAsset
 					src="/assets/support.jpg"
