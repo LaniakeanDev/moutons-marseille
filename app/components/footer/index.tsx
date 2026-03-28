@@ -123,7 +123,7 @@ export default function Footer({className}: FooterProps) {
 							<SupportUsLinks linkClassName="!bg-(--mm-grey)/40 !text-white" />
 						</div>
 					</div>
-	{/* 
+	
 					<div className="w-full space-y-4 flex-1">
 						<div className="w-full grid place-items-center">
 							<Title 
@@ -179,7 +179,7 @@ export default function Footer({className}: FooterProps) {
 								</div>
 							</div>
 						</div>
-					</div> */}
+					</div>
 
 					{/* Social media */}
 					<div className="space-y-4 flex-1">
@@ -219,7 +219,7 @@ export default function Footer({className}: FooterProps) {
 				</div>
 
 				{/* Legal and copyright */}
-				<div className="pt-8 border-t border-white/20">
+				<div className="w-full pt-8 border-t border-white/20">
 					<div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
 						{/* <div className="flex flex-wrap justify-center gap-6 text-sm">
 							<a href="#" className="hover:text-emerald-300 transition-colors">Mentions légales</a>
