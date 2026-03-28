@@ -1,5 +1,7 @@
 import ImageAsset from "../asset";
 import Title from "../title";
+import SponsorBanner from "../sponsor-banner";
+import { sponsors } from "@/app/_data/sponsors";
 
 interface PartnersProps {
 	className?: string;
@@ -15,13 +17,15 @@ export default function Partners({className}: PartnersProps) {
 			>
 				Nos partenaires
 				</Title>
-				<ImageAsset
+				{/* <ImageAsset
 					src="/assets/partners.jpg"
 					alt="Nos partenaires"
 					sizes="90vw"
 					containerClassName="w-[90vw] h-[50vw] max-h-[500px] max-w-7xl"
 					imgClassName="!object-contain"
-				/>
+				/> */}
+      	<SponsorBanner sponsors={sponsors} />
+
 		</section>
 	)
 }

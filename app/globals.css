@@ -1,15 +1,13 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: #f6f4f3;
   --foreground: #171717;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
 
   --breakpoint-2xs: 23.5rem;
   --breakpoint-xs: 30rem;
@@ -23,13 +21,19 @@
   --breakpoint-5xl: 240rem;
 
   --mm-green: #3FA78E;
+  --mm-grey: #d1c8c1;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
-    --foreground: #ededed;
+    --foreground: #f6f4f3;
   }
+}
+
+
+@utility font-montserrat {
+   @apply font-(family-name:--font-montserrat)
 }
 
 html {
@@ -39,5 +43,26 @@ html {
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Montserrat, sans-serif;
+}
+
+* {
+  @apply font-montserrat
+}
+
+
+.sponsor-banner {
+    @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .animate-scroll {
+    animation: scroll linear infinite;
+    width: fit-content;
+  }
 }

@@ -1,11 +1,11 @@
 
-import About from "./components/about";
+// import About from "./components/about";
 import Slider from "./components/slider";
-import Activities from "./components/activities";
+// import Activities from "./components/activities";
 import Partners from "./components/partners";
-import Contact from "./components/contact";
-import SupportUs from "./components/support-us";
-import Testimonials from "./components/testimonials";
+// import Contact from "./components/contact";
+// import SupportUs from "./components/support-us";
+// import Testimonials from "./components/testimonials";
 
 export default function HomePage() {
   const slides: ISlide[] = [
@@ -191,10 +191,10 @@ export default function HomePage() {
   return (
     <main>
       <Slider slides={slides} className="w-full h-[80vh]" autoPlay />
-      <About className="my-40" />
+      {/* <About className="my-40" /> */}
       <Partners className="my-40" />
-      <SupportUs />
-      <Testimonials />
+      {/* <SupportUs />
+      <Testimonials /> */}
     </main>
   );
 }
