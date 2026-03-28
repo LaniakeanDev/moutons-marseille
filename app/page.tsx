@@ -1,11 +1,11 @@
 
-import About from "./components/about";
+// import About from "./components/about";
 import Slider from "./components/slider";
-import Activities from "./components/activities";
+// import Activities from "./components/activities";
 import Partners from "./components/partners";
-import Contact from "./components/contact";
-import SupportUs from "./components/support-us";
-import Testimonials from "./components/testimonials";
+// import Contact from "./components/contact";
+// import SupportUs from "./components/support-us";
+// import Testimonials from "./components/testimonials";
 
 export default function HomePage() {
   const slides: ISlide[] = [

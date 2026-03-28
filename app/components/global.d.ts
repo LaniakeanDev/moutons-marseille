@@ -18,3 +18,9 @@ interface SheepFaceProps {
   description: string[];
 	name?: string;
 }
+
+interface Sponsor {
+  logo: string;
+	name: string;
+  url?: string;
+}
