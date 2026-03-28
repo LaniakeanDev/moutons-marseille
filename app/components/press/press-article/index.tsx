@@ -25,7 +25,7 @@ export default function PressArticle(props: PressArticleProps) {
 					containerClassName={`${imgSize} w-[90vw] h-[70vw] sm:h-[50vw]`}
 					/>
 				</div>
-			{link && <ExternalLink label="VOIR L’ARTICLE" href={link} className="py-1 px-2 rounded-full bg-(--mm-green)" />}
+			{link && <div className="w-full grid place-items-center mt-8"><ExternalLink label="VOIR L’ARTICLE" href={link} className="block w-fit py-2 px-4 rounded-full bg-(--mm-green)" /></div>}
 		</div>
 	)
 }
