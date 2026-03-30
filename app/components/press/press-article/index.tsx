@@ -8,14 +8,14 @@ export default function PressArticle(props: PressArticleProps) {
 	const {outletName, date, screenShot, alt, imgSize = '', link} = props;
 	return (
 		<div className="mb-32">
-			<div className="w-full flex flex-row justify-between items-center px-2 2xs:px-4 py-1 mb-4 bg-(--mm-grey) dark:bg-slate-700 max-h-">
+			<div className="w-full flex flex-row justify-between items-center px-2 2xs:px-4 py-1 mb-4 bg-(--mm-grey) max-h-">
 				<Title
 					level="h3"
-					titleClassName="text-2xl font-semibold"
+					titleClassName="text-2xl font-semibold text-black"
 				>
 					{outletName}
 				</Title>
-				<p>{date}</p>
+				<p className="text-black font-semibold">{date}</p>
 			</div>
 			<div className="w-full grid place-items-center">
 				<ImageAsset 

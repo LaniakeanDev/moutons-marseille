@@ -12,8 +12,8 @@ export default function ActivitesPage() {
 				<div className="w-[90vw] max-w-264">
 					<Title
 						level="h1"
-						containerClassName="bg-(--mm-grey) dark:bg-slate-700 rounded-md w-fit py-2 px-4 mb-16"
-						titleClassName="font-semibold text-2xl"
+						containerClassName="bg-(--mm-grey) rounded-md w-fit py-2 px-4 mb-16"
+						titleClassName="font-semibold text-2xl text-black"
 					>
 						Nos Activités
 					</Title>
