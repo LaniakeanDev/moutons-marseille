@@ -28,7 +28,7 @@ export default function FaceCard(props: FaceCardProps) {
 				{name}
 			</Title>
 			{ role &&
-				<p className="bg-(--mm-grey) dark:bg-slate-700 rounded-md w-fit py-1 px-2 max-w-48 text-center">
+				<p className="bg-(--mm-grey) rounded-md w-fit py-1 px-2 max-w-48 text-center text-black">
 					{role}
 				</p>
 			}
