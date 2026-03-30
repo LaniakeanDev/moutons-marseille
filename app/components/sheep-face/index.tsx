@@ -14,7 +14,7 @@ export default function SheepFace(props: SheepFaceProps) {
 			/>
 			<p className="text-xl text-center mb-2">{name || ''}</p>
 			<p className="mb-4">#{id}</p>
-			<button className="w-32 py-2 bg-slate-700 text-white rounded-full">PARRAINER</button>
+			<button className="w-32 py-2 bg-(--mm-grey) text-black rounded-full">PARRAINER</button>
 		</div>
 	)
 }

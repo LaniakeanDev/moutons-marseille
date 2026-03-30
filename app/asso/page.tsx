@@ -14,8 +14,8 @@ export default function AssoPage() {
 					<div className="w-[90vw] max-w-264 xl:max-w-xl">
 							<Title
 								level="h1"
-								containerClassName="bg-(--mm-grey) dark:bg-slate-700 rounded-md w-fit px-4 py-2 mb-8"
-								titleClassName="font-semibold text-2xl"
+								containerClassName="bg-(--mm-grey) rounded-md w-fit px-4 py-2 mb-8"
+								titleClassName="font-semibold text-2xl text-black"
 								>
 								L’association
 							</Title>
@@ -36,8 +36,8 @@ export default function AssoPage() {
 							</div>
 							<Title
 								level="h2"
-								containerClassName="bg-(--mm-grey) dark:bg-slate-700 rounded-md w-fit py-1 px-2 mb-4 mt-8"
-								titleClassName="font-semibold text-xl"
+								containerClassName="bg-(--mm-grey) rounded-md w-fit py-1 px-2 mb-4 mt-8"
+								titleClassName="font-semibold text-xl text-black"
 							>
 								Qui sommes-nous ?
 							</Title>
@@ -111,15 +111,15 @@ export default function AssoPage() {
 				<div className="w-[90vw] max-w-264 mb-16">
 					<Title
 						level="h2"
-						containerClassName="bg-(--mm-grey) dark:bg-slate-700 rounded-md w-fit px-4 py-2 mb-4 mt-8"
-						titleClassName="font-semibold text-2xl"
+						containerClassName="bg-(--mm-grey) rounded-md w-fit px-4 py-2 mb-4 mt-8"
+						titleClassName="font-semibold text-2xl text-black"
 					>
 						Notre équipe
 					</Title>
 					<Title
 						level="h3"
 						containerClassName="mb-8 mt-8"
-						titleClassName="text-(--mm-green) text-xl"
+						titleClassName="text-(--mm-green) text-xl sm:text-2xl"
 					>
 						L'équipe opérationnelle
 					</Title>
@@ -140,7 +140,7 @@ export default function AssoPage() {
 					<Title
 						level="h3"
 						containerClassName="mb-8 mt-8"
-						titleClassName="text-(--mm-green) text-xl"
+						titleClassName="text-(--mm-green) text-xl sm:text-2xl"
 					>
 						Le Conseil d’Administration
 					</Title>

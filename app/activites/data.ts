@@ -12,7 +12,7 @@ export const activities = {
 		imgUrl: "/assets/activites/animations.png",
 		imgAlt: "description",
 		actionLabel: "nous contacter",
-		actionUrl: "TBD"
+		actionUrl: "contact"
 	},
 	transhumances: {
 		title: "Transhumances urbaines",
@@ -24,7 +24,8 @@ export const activities = {
 		imgUrl: "/assets/activites/transhumances.png",
 		imgAlt: "description",
 		actionLabel: "participer",
-		actionUrl: "TBD"
+		actionUrl: "https://www.jeveuxaider.gouv.fr/missions-benevolat/73954/benevolat-les-moutons-marseillais",
+		actionType: "external"
 	},
 	entretiens: {
 		title: "Entretiens écologiques des espaces verts",
@@ -39,7 +40,7 @@ export const activities = {
 		imgUrl: "/assets/activites/entretiens.jpg",
 		imgAlt: "description",
 		actionLabel: "nous contacter",
-		actionUrl: "TBD"
+		actionUrl: "contact"
 	},
 	sensibilisation: {
 		title: "Sensibilisation au développement durable",
@@ -52,7 +53,7 @@ export const activities = {
 		imgUrl: "/assets/activites/sensibilisation.png",
 		imgAlt: "description",
 		actionLabel: "nous contacter",
-		actionUrl: "TBD"
+		actionUrl: "contact"
 	},
 	transhumanceEstivale: {
 		title: "Transhumance estivale",
@@ -66,6 +67,7 @@ export const activities = {
 		imgUrl: "/assets/activites/transhumance_estivale.jpeg",
 		imgAlt: "description",
 		actionLabel: "participer",
-		actionUrl: "TBD"
+		actionUrl: "https://www.jeveuxaider.gouv.fr/missions-benevolat/73954/benevolat-les-moutons-marseillais",
+		actionType: "external"
 	},
 }
