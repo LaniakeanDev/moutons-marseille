@@ -29,22 +29,22 @@ export default function Activities() {
 	const activities:ActivityProps[] = [
 		{
 			src: "/assets/activities/activity_1.jpeg",
-			alt: "alt",
+			alt: "Entretien écologique d’espaces verts",
 			tagline: "Entretien écologique d’espaces verts"
 		},
 		{
 			src: "/assets/activities/activity_2.jpeg",
-			alt: "alt",
+			alt: "Médiation animale",
 			tagline: "Médiation animale"
 		},
 		{
 			src: "/assets/activities/activity_3.jpeg",
-			alt: "alt",
+			alt: "Sensibilisation au développement durable",
 			tagline: "Sensibilisation au développement durable"
 		},
 		{
 			src: "/assets/activities/activity_4.jpeg",
-			alt: "alt",
+			alt: "Transhumance urbaine",
 			tagline: "Transhumance urbaine"
 		},
 	]
